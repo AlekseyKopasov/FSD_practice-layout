@@ -1,7 +1,7 @@
 /* src/app.js */
 
 // Styles
-import 'styles/_app.scss';
+import 'styles/app.scss';
 
 // Libraries
 import 'slick-carousel';
