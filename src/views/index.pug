@@ -1,9 +1,11 @@
-extends ./layouts/base
-
 block vars
   - title = 'Homepage'
   - bodyClass = 'home-page'
   - currentUrl = 'index.html'
 
 block content
-  main(role="main") Main
+  main.list-of-pages( role="main" )
+    h1 TOXIN
+    ol
+      li
+        a( href="ui-kit.html" ) ui-kit.html --- UI KIT

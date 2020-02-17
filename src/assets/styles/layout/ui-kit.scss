@@ -1,0 +1,45 @@
+/* src/assets/styles/layout/ui-kit.scss */
+
+// titles
+.title {
+  margin: 0;
+  padding: 0;
+
+  font-family: $font-family-title;
+//  font-family: Quicksand;
+  font-style: normal;
+  font-weight: 700;
+  color: $color-dark;
+}
+
+.title__main {
+  font-family:$font-family-title;
+  //  font-family: Quicksand;
+  font-size: 24px;
+  line-height: 30px;
+}
+
+.title__large {
+  font-size: 19px;
+  line-height: 24px;
+}
+
+.title__middle {
+  font-size: 12px;
+  line-height: 15px;
+
+  text-transform: uppercase;
+}
+
+// text
+.text,
+p {
+  margin: 0;
+  padding: 0;
+  font-family: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  font-style: normal;
+  font-weight: 400;
+  color: inherit;
+}

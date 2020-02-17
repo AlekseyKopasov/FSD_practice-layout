@@ -25,9 +25,11 @@
 /*
   Layout
 */
+@import './layout/ui-kit';
 @import './layout/page';
 
 /*
   Pages
 */
+@import './pages/_list-of-pages';
 @import './pages/index';

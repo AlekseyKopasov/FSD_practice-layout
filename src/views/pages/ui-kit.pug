@@ -1,0 +1,42 @@
+block vars
+  - title = ' UI KIT'
+  - bodyClass = 'ui-kit-page'
+  - currentUrl = 'ui-kit.html'
+
+doctype html
+html(lang="en")
+  head
+
+    //- Meta
+    meta(charset="utf-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    title=title
+    meta(name="description", content=description)
+    meta(name="keywords", content=keywords)
+    meta(name="author", content=author)
+
+  body(class=bodyClass)
+
+    //- block content
+    block content
+      main(role="main")
+
+        h2.title.title__main UI-KIT
+        
+        h2.title.title__large Заголовки
+        ul
+          li
+            h1.title.title__main Заголовок h1
+          li
+            h2.title.title__large Заголовок h2
+          li
+            h3.title.title__middle Заголовок h3. This is a label or CTA text
+        
+        h2.title.title__large Текст
+        ul
+          li
+            p Основной текст на странице. This is the body text which is used for most of the design, like paragraphs, lists, etc.
+
+    //- block scripts
+    block scripts
